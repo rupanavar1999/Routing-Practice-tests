@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.navContainer {
+  margin: 20 px;
+}
+
+.navCardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo-heading {
+  display: flex;
+  margin: 25px;
+  flex-direction: row;
+}
+
+.imgLogo {
+  height: 45px;
+  width: 50px;
+  margin: 10px;
+}
+
+.listContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 25px;
+  padding: 25px;
+}
+
+.nav-link {
+  font-size: 25px;
+  font-family: roboto;
+  font-weight: bold;
+  color: #12022f;
+  margin: 20px;
+}
